@@ -1,0 +1,10 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:45.007 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:46.335 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:47.018 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:50.475 BasePage:94 - product page title is - PRODUCTS
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:51.726 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with valid user name and password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:23:56.716 ServerManager:20 - Starting Appium Server
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:00.729 ServerManager:28 - Appium Server Started
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:00.924 DriverManager:24 - Initializing Appium Driver
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:00.981 PropertyManager:19 - loading config properties
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:00.986 CapabilitiesManager:18 - getting capabilities

@@ -1,0 +1,10 @@
+[Android_Pixel_2 INFO ] 2021-08-01 22:25:43.422 BasePage:94 - product page title is - PRODUCTS
+[Android_Pixel_2 INFO ] 2021-08-01 22:25:44.663 VideoManager:36 - video path: Android_Pixel_2\Videos\Login with valid user name and password.mp4
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:02.425 ServerManager:20 - Starting Appium Server
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:07.710 ServerManager:28 - Appium Server Started
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:07.775 DriverManager:24 - Initializing Appium Driver
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:07.812 PropertyManager:19 - loading config properties
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:07.813 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:07.817 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:23.660 DriverManager:29 - Driver is initialized
+[Android_Pixel_2 INFO ] 2021-08-01 22:34:27.949 BasePage:71 - login with invalidUsername

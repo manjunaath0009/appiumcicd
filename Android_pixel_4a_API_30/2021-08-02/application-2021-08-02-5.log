@@ -1,0 +1,9 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:00.990 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:16.250 DriverManager:29 - Driver is initialized
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:21.975 BasePage:71 - login with invalidUsername
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:24.276 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:25.475 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:27.159 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:30.879 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid user name.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:32.734 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:34.404 BasePage:71 - password is invalidPassword

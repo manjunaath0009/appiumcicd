@@ -1,0 +1,7 @@
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:10.115 ServerManager:20 - Starting Appium Server
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:14.338 ServerManager:28 - Appium Server Started
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:14.609 DriverManager:24 - Initializing Appium Driver
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:14.748 PropertyManager:19 - loading config properties
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:14.749 CapabilitiesManager:18 - getting capabilities
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:14.763 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk
+[Android_pixel_3a_API_30_x86 INFO ] 2021-08-02 14:24:30.738 DriverManager:29 - Driver is initialized

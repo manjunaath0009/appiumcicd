@@ -1,0 +1,11 @@
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:05.649 ServerManager:20 - Starting Appium Server
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:10.980 ServerManager:28 - Appium Server Started
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:11.015 DriverManager:28 - Initializing Appium Driver
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:11.049 PropertyManager:19 - loading config properties
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:11.051 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2021-07-31 23:20:11.054 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumBDD\src\test\resources\apps\Sauce.apk
+[Android_Pixel_2 INFO ] 2021-07-31 23:28:06.340 ServerManager:20 - Starting Appium Server
+[Android_Pixel_2 INFO ] 2021-07-31 23:28:10.382 ServerManager:28 - Appium Server Started
+[Android_Pixel_2 INFO ] 2021-07-31 23:28:10.423 DriverManager:28 - Initializing Appium Driver
+[Android_Pixel_2 INFO ] 2021-07-31 23:28:10.448 PropertyManager:19 - loading config properties
+[Android_Pixel_2 INFO ] 2021-07-31 23:28:10.454 CapabilitiesManager:18 - getting capabilities

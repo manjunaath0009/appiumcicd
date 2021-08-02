@@ -1,0 +1,240 @@
+2021-08-02 08:54:13:822 [Appium] Welcome to Appium v1.21.0
+2021-08-02 08:54:13:823 [Appium] Non-default server args:
+2021-08-02 08:54:13:824 [Appium]   port: 40385
+2021-08-02 08:54:13:825 [Appium]   sessionOverride: true
+2021-08-02 08:54:13:825 [Appium]   logFile: D:\IntellijProjects\AppiumTestNG\Android_pixel_3a_API_30_x86\Server.Log
+2021-08-02 08:54:13:872 [Appium] Appium REST http interface listener started on 0.0.0.0:40385
+2021-08-02 08:54:14:186 [HTTP] --> GET /wd/hub/status
+2021-08-02 08:54:14:186 [HTTP] {}
+2021-08-02 08:54:14:189 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-08-02 08:54:14:196 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-08-02 08:54:14:286 [HTTP] <-- GET /wd/hub/status 200 73 ms - 68
+2021-08-02 08:54:14:286 [HTTP] 
+2021-08-02 08:54:14:330 [HTTP] --> GET /wd/hub/status
+2021-08-02 08:54:14:330 [HTTP] {}
+2021-08-02 08:54:14:331 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-08-02 08:54:14:332 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.21.0"}}
+2021-08-02 08:54:14:334 [HTTP] <-- GET /wd/hub/status 200 3 ms - 68
+2021-08-02 08:54:14:334 [HTTP] 
+2021-08-02 08:54:15:939 [HTTP] Request idempotency key: 48562618-fc9e-4e13-8894-95bc1be70ae4
+2021-08-02 08:54:15:962 [HTTP] --> POST /wd/hub/session
+2021-08-02 08:54:15:962 [HTTP] {"desiredCapabilities":{"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Android","systemPort":"10000"},"capabilities":{"firstMatch":[{"appium:app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"Appium","chromeDriverPort":"11000","appium:deviceName":"Android","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}}
+2021-08-02 08:54:15:963 [W3C] Calling AppiumDriver.createSession() with args: [{"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","chromeDriverPort":"11000","platformName":"Android","udid":"emulator-5554","deviceName":"Android","systemPort":"10000"},null,{"firstMatch":[{"appium:app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appium:appActivity":"com.swaglabsmobileapp.SplashActivity","appium:appPackage":"com.swaglabsmobileapp","appium:automationName":"Appium","chromeDriverPort":"11000","appium:deviceName":"Android","platformName":"android","appium:systemPort":"10000","appium:udid":"emulator-5554"}]}]
+2021-08-02 08:54:15:981 [BaseDriver] Event 'newSessionRequested' logged at 1627894455964 (14:24:15 GMT+0530 (India Standard Time))
+2021-08-02 08:54:15:987 [BaseDriver] The following capabilities are not standard capabilities and should have an extension prefix:
+2021-08-02 08:54:15:987 [BaseDriver]   chromeDriverPort
+2021-08-02 08:54:15:997 [Appium] 
+2021-08-02 08:54:15:997 [Appium] ======================================================================
+2021-08-02 08:54:15:998 [Appium]   DEPRECATION WARNING:
+2021-08-02 08:54:15:999 [Appium] 
+2021-08-02 08:54:16:001 [Appium]   The 'automationName' capability was not provided in the desired 
+2021-08-02 08:54:16:003 [Appium]   capabilities for this Android session
+2021-08-02 08:54:16:003 [Appium] 
+2021-08-02 08:54:16:003 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2021-08-02 08:54:16:006 [Appium]   UiAutomator2 Driver
+2021-08-02 08:54:16:007 [Appium] 
+2021-08-02 08:54:16:007 [Appium]   The next major version of Appium (2.x) will **require** the 
+2021-08-02 08:54:16:007 [Appium]   'automationName' capability to be set for all sessions on all 
+2021-08-02 08:54:16:008 [Appium]   platforms
+2021-08-02 08:54:16:008 [Appium] 
+2021-08-02 08:54:16:008 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2021-08-02 08:54:16:009 [Appium]   'automationName=UiAutomator1'
+2021-08-02 08:54:16:009 [Appium] 
+2021-08-02 08:54:16:009 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2021-08-02 08:54:16:009 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2021-08-02 08:54:16:009 [Appium] 
+2021-08-02 08:54:16:010 [Appium]   For more information about drivers, please visit 
+2021-08-02 08:54:16:010 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2021-08-02 08:54:16:011 [Appium]   'Drivers' menu
+2021-08-02 08:54:16:011 [Appium] 
+2021-08-02 08:54:16:011 [Appium] ======================================================================
+2021-08-02 08:54:16:011 [Appium] 
+2021-08-02 08:54:16:622 [Appium] Appium v1.21.0 creating new AndroidUiautomator2Driver (v1.65.0) session
+2021-08-02 08:54:16:623 [Appium] There are no active sessions for cleanup
+2021-08-02 08:54:16:625 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2021-08-02 08:54:16:626 [BaseDriver] Creating session with W3C capabilities: {
+2021-08-02 08:54:16:626 [BaseDriver]   "alwaysMatch": {
+2021-08-02 08:54:16:626 [BaseDriver]     "appium:chromeDriverPort": "11000",
+2021-08-02 08:54:16:627 [BaseDriver]     "platformName": "android",
+2021-08-02 08:54:16:627 [BaseDriver]     "appium:app": "D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk",
+2021-08-02 08:54:16:627 [BaseDriver]     "appium:appActivity": "com.swaglabsmobileapp.SplashActivity",
+2021-08-02 08:54:16:627 [BaseDriver]     "appium:appPackage": "com.swaglabsmobileapp",
+2021-08-02 08:54:16:627 [BaseDriver]     "appium:automationName": "Appium",
+2021-08-02 08:54:16:628 [BaseDriver]     "appium:deviceName": "Android",
+2021-08-02 08:54:16:629 [BaseDriver]     "appium:systemPort": "10000",
+2021-08-02 08:54:16:629 [BaseDriver]     "appium:udid": "emulator-5554"
+2021-08-02 08:54:16:632 [BaseDriver]   },
+2021-08-02 08:54:16:632 [BaseDriver]   "firstMatch": [
+2021-08-02 08:54:16:633 [BaseDriver]     {}
+2021-08-02 08:54:16:633 [BaseDriver]   ]
+2021-08-02 08:54:16:634 [BaseDriver] }
+2021-08-02 08:54:16:639 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-08-02 08:54:16:640 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2021-08-02 08:54:16:647 [BaseDriver] Capability 'systemPort' changed from string ('10000') to integer (10000). This may cause unexpected behavior
+2021-08-02 08:54:16:647 [BaseDriver] Capability 'chromeDriverPort' changed from string ('11000') to integer (11000). This may cause unexpected behavior
+2021-08-02 08:54:16:654 [BaseDriver] Session created with session id: 13ba03a4-1e84-4cb3-b35e-029c5a5dcef8
+2021-08-02 08:54:16:663 [BaseDriver] Using local app 'D:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk'
+2021-08-02 08:54:16:663 [UiAutomator2] Checking whether app is actually present
+2021-08-02 08:54:16:737 [ADB] Found 2 'build-tools' folders under 'C:\Users\Admin\AppData\Local\Android\Sdk' (newest first):
+2021-08-02 08:54:16:737 [ADB]     C:/Users/Admin/AppData/Local/Android/Sdk/build-tools/31.0.0-rc5
+2021-08-02 08:54:16:738 [ADB]     C:/Users/Admin/AppData/Local/Android/Sdk/build-tools/30.0.3
+2021-08-02 08:54:16:739 [ADB] Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-08-02 08:54:16:741 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-08-02 08:54:16:808 [AndroidDriver] Retrieving device list
+2021-08-02 08:54:16:809 [ADB] Trying to find a connected android device
+2021-08-02 08:54:16:811 [ADB] Getting connected devices
+2021-08-02 08:54:16:857 [ADB] Connected devices: [{"udid":"emulator-5554","state":"device"}]
+2021-08-02 08:54:16:858 [AndroidDriver] Using device: emulator-5554
+2021-08-02 08:54:16:862 [ADB] Using 'adb.exe' from 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2021-08-02 08:54:16:863 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2021-08-02 08:54:16:912 [ADB] Setting device id to emulator-5554
+2021-08-02 08:54:16:913 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+2021-08-02 08:54:16:990 [ADB] Current device property 'ro.build.version.sdk': 30
+2021-08-02 08:54:16:991 [ADB] Getting device platform version
+2021-08-02 08:54:16:991 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+2021-08-02 08:54:17:066 [ADB] Current device property 'ro.build.version.release': 11
+2021-08-02 08:54:17:067 [ADB] Device API level: 30
+2021-08-02 08:54:17:067 [UiAutomator2] Relaxing hidden api policy
+2021-08-02 08:54:17:068 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2021-08-02 08:54:17:208 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+2021-08-02 08:54:17:259 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+2021-08-02 08:54:17:314 [AndroidDriver] Pushing settings apk to device...
+2021-08-02 08:54:17:315 [ADB] Getting install status for io.appium.settings
+2021-08-02 08:54:17:315 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2021-08-02 08:54:17:536 [ADB] 'io.appium.settings' is installed
+2021-08-02 08:54:17:537 [ADB] Getting package info for 'io.appium.settings'
+2021-08-02 08:54:17:537 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+2021-08-02 08:54:17:622 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.3.0' >= '3.3.0')
+2021-08-02 08:54:17:623 [ADB] There is no need to install/upgrade 'C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2021-08-02 08:54:17:624 [ADB] Getting IDs of all 'io.appium.settings' processes
+2021-08-02 08:54:17:624 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+2021-08-02 08:54:17:713 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+2021-08-02 08:54:17:807 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2021-08-02 08:54:17:809 [Logcat] Starting logs capture with command: C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+2021-08-02 08:54:17:866 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to local port 10000
+2021-08-02 08:54:17:867 [ADB] Forwarding system: 10000 to device: 6790
+2021-08-02 08:54:17:867 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:10000 tcp:6790'
+2021-08-02 08:54:17:925 [ADB] Getting install status for io.appium.uiautomator2.server
+2021-08-02 08:54:17:926 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2021-08-02 08:54:18:065 [ADB] 'io.appium.uiautomator2.server' is installed
+2021-08-02 08:54:18:065 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2021-08-02 08:54:18:065 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+2021-08-02 08:54:18:201 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.21.1' >= '4.21.1')
+2021-08-02 08:54:18:202 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2021-08-02 08:54:18:203 [ADB] Checking app cert for C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk
+2021-08-02 08:54:18:210 [ADB] Using 'apksigner.jar' from 'C:\Users\Admin\AppData\Local\Android\Sdk\build-tools\31.0.0-rc5\lib\apksigner.jar'
+2021-08-02 08:54:18:212 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0-rc5\\lib\\apksigner.jar verify --print-certs C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.21.1.apk
+2021-08-02 08:54:19:734 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-08-02 08:54:19:734 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-08-02 08:54:19:734 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-08-02 08:54:19:734 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-08-02 08:54:19:735 [ADB] 
+2021-08-02 08:54:19:735 [ADB] sha256 hash did match for 'appium-uiautomator2-server-v4.21.1.apk'
+2021-08-02 08:54:19:736 [ADB] 'C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' is signed with the default certificate
+2021-08-02 08:54:19:736 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2021-08-02 08:54:19:736 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server.test'
+2021-08-02 08:54:19:919 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2021-08-02 08:54:19:919 [ADB] Checking app cert for C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2021-08-02 08:54:19:920 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0-rc5\\lib\\apksigner.jar verify --print-certs C:\\Users\\Admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2021-08-02 08:54:21:294 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2021-08-02 08:54:21:294 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2021-08-02 08:54:21:295 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2021-08-02 08:54:21:295 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2021-08-02 08:54:21:295 [ADB] 
+2021-08-02 08:54:21:295 [ADB] sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+2021-08-02 08:54:21:295 [ADB] 'C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2021-08-02 08:54:21:296 [UiAutomator2] Server packages are not going to be (re)installed
+2021-08-02 08:54:21:321 [UiAutomator2] Waiting up to 30000ms for services to be available
+2021-08-02 08:54:21:321 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+2021-08-02 08:54:21:584 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2021-08-02 08:54:21:589 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2021-08-02 08:54:21:589 [ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2021-08-02 08:54:21:590 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2021-08-02 08:54:21:823 [ADB] Checking app cert for D:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk
+2021-08-02 08:54:21:824 [ADB] Starting apksigner: 'C:\\Program Files\\Java\\jdk1.8.0_291\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\Admin\\AppData\\Local\\Android\\Sdk\\build-tools\\31.0.0-rc5\\lib\\apksigner.jar verify --print-certs D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk
+2021-08-02 08:54:24:028 [ADB] apksigner stdout: Signer #1 certificate DN: CN=wswebcreation, OU=sample-app, O=Sauce Labs, L=San Francisco, ST=California, C=CA
+2021-08-02 08:54:24:028 [ADB] Signer #1 certificate SHA-256 digest: 24fd76156cde9748f50e68dbdafde6498ec4beaa41316438d06ffdde41ce7a3d
+2021-08-02 08:54:24:028 [ADB] Signer #1 certificate SHA-1 digest: 2a1a91b5b813edbd94986bffb8398349b9b504e0
+2021-08-02 08:54:24:028 [ADB] Signer #1 certificate MD5 digest: ac89c8eda61ba1f13ee22bae56d13abc
+2021-08-02 08:54:24:028 [ADB] 
+2021-08-02 08:54:24:029 [ADB] 'D:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk' is signed with a non-default certificate
+2021-08-02 08:54:24:030 [ADB] Getting install status for com.swaglabsmobileapp
+2021-08-02 08:54:24:030 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-08-02 08:54:24:109 [ADB] 'com.swaglabsmobileapp' is installed
+2021-08-02 08:54:24:109 [ADB] Getting package info for 'com.swaglabsmobileapp'
+2021-08-02 08:54:24:110 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-08-02 08:54:24:169 [ADB] The version name of the installed 'com.swaglabsmobileapp' is greater or equal to the application version name ('2.7.1' >= '2.7.1')
+2021-08-02 08:54:24:170 [ADB] There is no need to install/upgrade 'D:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk'
+2021-08-02 08:54:24:170 [AndroidDriver] Performing fast reset on 'com.swaglabsmobileapp'
+2021-08-02 08:54:24:170 [ADB] Getting install status for com.swaglabsmobileapp
+2021-08-02 08:54:24:171 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.swaglabsmobileapp'
+2021-08-02 08:54:24:223 [ADB] 'com.swaglabsmobileapp' is installed
+2021-08-02 08:54:24:223 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2021-08-02 08:54:24:315 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.swaglabsmobileapp'
+2021-08-02 08:54:24:407 [AndroidDriver] Performed fast reset on the installed 'com.swaglabsmobileapp' application (stop and clear)
+2021-08-02 08:54:24:407 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2021-08-02 08:54:24:440 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2021-08-02 08:54:24:440 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+2021-08-02 08:54:24:625 [UiAutomator2] Starting UIAutomator2 server 4.21.1
+2021-08-02 08:54:24:625 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.21.1.apk' and test from 'C:\Users\Admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2021-08-02 08:54:24:626 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2021-08-02 08:54:24:627 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2021-08-02 08:54:24:635 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-08-02 08:54:24:637 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-08-02 08:54:24:648 [WD Proxy] socket hang up
+2021-08-02 08:54:25:663 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-08-02 08:54:25:664 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-08-02 08:54:25:669 [WD Proxy] socket hang up
+2021-08-02 08:54:25:726 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2021-08-02 08:54:26:674 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-08-02 08:54:26:674 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-08-02 08:54:26:681 [WD Proxy] socket hang up
+2021-08-02 08:54:27:686 [WD Proxy] Matched '/status' to command name 'getStatus'
+2021-08-02 08:54:27:687 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:10000/wd/hub/status] with no body
+2021-08-02 08:54:27:869 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2021-08-02 08:54:27:869 [UiAutomator2] The initialization of the instrumentation process took 3243ms
+2021-08-02 08:54:27:870 [WD Proxy] Matched '/session' to command name 'createSession'
+2021-08-02 08:54:27:870 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:10000/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"Android","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+2021-08-02 08:54:27:953 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"Android","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"173f0905-6a31-43a0-9ef8-79d03...
+2021-08-02 08:54:27:954 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-08-02 08:54:27:986 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:10000/wd/hub/session/173f0905-6a31-43a0-9ef8-79d032b09d92/appium/device/info] with no body
+2021-08-02 08:54:28:056 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":{"androidId":"3fe48c0723751535","apiVersion":"30","bluetooth":{"state":"ON"},"brand":"google","carrierName":"Android","displayDensity":440,"locale":"en_US","manufacturer":"Google","model":"sdk_gphone_x86_arm","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeNam...
+2021-08-02 08:54:28:057 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+2021-08-02 08:54:28:203 [AndroidDriver] Screen already unlocked, doing nothing
+2021-08-02 08:54:28:204 [UiAutomator2] Starting 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity and waiting for 'com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity'
+2021-08-02 08:54:28:205 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am start -W -n com.swaglabsmobileapp/com.swaglabsmobileapp.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2021-08-02 08:54:30:454 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:10000/wd/hub/session/173f0905-6a31-43a0-9ef8-79d032b09d92/appium/device/pixel_ratio] with no body
+2021-08-02 08:54:30:487 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":2.75}
+2021-08-02 08:54:30:492 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2021-08-02 08:54:30:494 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:10000/wd/hub/session/173f0905-6a31-43a0-9ef8-79d032b09d92/appium/device/system_bars] with no body
+2021-08-02 08:54:30:529 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":{"statusBar":136}}
+2021-08-02 08:54:30:530 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2021-08-02 08:54:30:531 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:10000/wd/hub/session/173f0905-6a31-43a0-9ef8-79d032b09d92/window/current/size] with no body
+2021-08-02 08:54:30:568 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":{"height":2072,"width":1080}}
+2021-08-02 08:54:30:569 [Appium] New AndroidUiautomator2Driver session created successfully, session 13ba03a4-1e84-4cb3-b35e-029c5a5dcef8 added to master session list
+2021-08-02 08:54:30:571 [BaseDriver] Event 'newSessionStarted' logged at 1627894470570 (14:24:30 GMT+0530 (India Standard Time))
+2021-08-02 08:54:30:571 [W3C (13ba03a4)] Cached the protocol value 'W3C' for the new session 13ba03a4-1e84-4cb3-b35e-029c5a5dcef8
+2021-08-02 08:54:30:572 [W3C (13ba03a4)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"Android","systemPort":10000,"udid":"emulator-5554"},"platformName":"android","chromeDriverPort":11000,"app":"D:\\IntellijProjects\\AppiumTestNG\\src\\test\\resources\\apps\\Sauce.apk","appActivity":"com.swaglabsmobileapp.SplashActivity","appPackage":"com.swaglabsmobileapp","automationName":"Appium","deviceName":"emulator-5554","systemPort":10000,"udid":"emulator-5554","deviceUDID":"emulator-5554","deviceApiLevel":30,"platformVersion":"11","deviceScreenSize":"1080x2340","deviceScreenDensity":440,"deviceModel":"sdk_gphone_x86_arm","d...
+2021-08-02 08:54:30:575 [HTTP] <-- POST /wd/hub/session 200 14612 ms - 1212
+2021-08-02 08:54:30:575 [HTTP] 
+2021-08-02 08:54:30:885 [HTTP] --> DELETE /wd/hub/session/13ba03a4-1e84-4cb3-b35e-029c5a5dcef8
+2021-08-02 08:54:30:886 [HTTP] {}
+2021-08-02 08:54:30:888 [W3C (13ba03a4)] Calling AppiumDriver.deleteSession() with args: ["13ba03a4-1e84-4cb3-b35e-029c5a5dcef8"]
+2021-08-02 08:54:30:889 [BaseDriver] Event 'quitSessionRequested' logged at 1627894470889 (14:24:30 GMT+0530 (India Standard Time))
+2021-08-02 08:54:30:890 [Appium] Removing session 13ba03a4-1e84-4cb3-b35e-029c5a5dcef8 from our master session list
+2021-08-02 08:54:30:894 [UiAutomator2] Deleting UiAutomator2 session
+2021-08-02 08:54:30:896 [UiAutomator2] Deleting UiAutomator2 server session
+2021-08-02 08:54:30:898 [WD Proxy] Matched '/' to command name 'deleteSession'
+2021-08-02 08:54:30:898 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:10000/wd/hub/session/173f0905-6a31-43a0-9ef8-79d032b09d92] with no body
+2021-08-02 08:54:30:919 [WD Proxy] Got response with status 200: {"sessionId":"173f0905-6a31-43a0-9ef8-79d032b09d92","value":null}
+2021-08-02 08:54:30:920 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.swaglabsmobileapp'
+2021-08-02 08:54:31:229 [Logcat] Stopping logcat capture
+2021-08-02 08:54:31:239 [ADB] Removing forwarded port socket connection: 10000 
+2021-08-02 08:54:31:239 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:10000'
+2021-08-02 08:54:31:386 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2021-08-02 08:54:31:387 [ADB] Running 'C:\Users\Admin\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2021-08-02 08:54:31:862 [Instrumentation] .
+2021-08-02 08:54:31:911 [Instrumentation] Time: 6.155
+2021-08-02 08:54:31:912 [Instrumentation] 
+2021-08-02 08:54:31:912 [Instrumentation] OK (1 test)
+2021-08-02 08:54:32:049 [BaseDriver] Event 'quitSessionFinished' logged at 1627894472049 (14:24:32 GMT+0530 (India Standard Time))

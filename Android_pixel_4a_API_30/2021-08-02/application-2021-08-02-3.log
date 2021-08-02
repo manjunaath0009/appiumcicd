@@ -1,0 +1,10 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:31.851 BasePage:71 - login with invalidUsername
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:33.317 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:34.052 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:35.111 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:36.737 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid user name.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:38.403 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:40.254 BasePage:71 - password is invalidPassword
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:41.450 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:42.194 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:18:43.394 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid password.mp4

@@ -1,0 +1,11 @@
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:26.314 VideoManager:35 - video path: Android_Pixel_2\Videos\Login with invalid user name.mp4
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:27.825 BasePage:71 - login with standard_user
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:29.197 BasePage:71 - password is invalidPassword
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:29.947 BasePage:54 - press login button
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:30.780 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:31.817 VideoManager:35 - video path: Android_Pixel_2\Videos\Login with invalid password.mp4
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:33.306 BasePage:71 - login with standard_user
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:34.654 BasePage:71 - password is secret_sauce
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:35.351 BasePage:54 - press login button
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:38.419 BasePage:94 - product page title is - PRODUCTS
+[Android_Pixel_2 INFO ] 2021-08-02 14:36:39.608 VideoManager:35 - video path: Android_Pixel_2\Videos\Login with valid user name and password.mp4

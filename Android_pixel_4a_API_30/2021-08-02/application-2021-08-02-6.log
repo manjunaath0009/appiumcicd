@@ -1,0 +1,9 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:35.677 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:37.109 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:38.601 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:40.463 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:42.391 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:43.140 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:48.317 BasePage:94 - product page title is - PRODUCTS
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:24:49.839 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with valid user name and password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:25:44.109 ServerManager:20 - Starting Appium Server

@@ -1,0 +1,11 @@
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:36.854 ServerManager:20 - Starting Appium Server
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:40.561 ServerManager:28 - Appium Server Started
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:40.562 DriverManager:24 - Initializing Appium Driver
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:40.642 PropertyManager:19 - loading config properties
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:40.643 CapabilitiesManager:18 - getting capabilities
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:40.648 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk
+[Android_Pixel_2 INFO ] 2021-08-02 14:25:54.900 DriverManager:29 - Driver is initialized
+[Android_Pixel_2 INFO ] 2021-08-02 14:26:00.713 BasePage:71 - login with invalidUsername
+[Android_Pixel_2 INFO ] 2021-08-02 14:26:02.617 BasePage:71 - password is secret_sauce
+[Android_Pixel_2 INFO ] 2021-08-02 14:26:03.814 BasePage:54 - press login button
+[Android_Pixel_2 INFO ] 2021-08-02 14:26:04.916 BasePage:94 - error text is - Username and password do not match any user in this service.

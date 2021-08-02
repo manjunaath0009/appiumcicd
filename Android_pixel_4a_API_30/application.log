@@ -1,0 +1,8 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:49.533 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:51.146 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:52.965 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:54.118 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:57.440 BasePage:94 - product page title is - PRODUCTS
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:58.670 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with valid user name and password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:36:13.724 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Validate product info on Products page.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:36:28.508 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Validate product info on Product Details page.mp4

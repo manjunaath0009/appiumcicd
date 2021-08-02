@@ -1,0 +1,9 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:32.319 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with valid user name and password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:47.425 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Validate product info on Products page.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:27:02.660 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Validate product info on Product Details page.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:12.854 ServerManager:20 - Starting Appium Server
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:16.768 ServerManager:28 - Appium Server Started
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:16.848 DriverManager:24 - Initializing Appium Driver
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:16.902 PropertyManager:19 - loading config properties
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:16.905 CapabilitiesManager:18 - getting capabilities
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:35:16.909 CapabilitiesManager:36 - appUrl isD:\IntellijProjects\AppiumTestNG\src\test\resources\apps\Sauce.apk

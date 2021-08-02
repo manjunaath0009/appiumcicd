@@ -1,0 +1,10 @@
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:15.733 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid user name.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:17.354 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:19.190 BasePage:71 - password is invalidPassword
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:20.371 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:21.258 BasePage:94 - error text is - Username and password do not match any user in this service.
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:22.379 VideoManager:35 - video path: Android_pixel_4a_API_30\Videos\Login with invalid password.mp4
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:23.981 BasePage:71 - login with standard_user
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:25.790 BasePage:71 - password is secret_sauce
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:26.982 BasePage:54 - press login button
+[Android_pixel_4a_API_30 INFO ] 2021-08-02 23:26:30.552 BasePage:94 - product page title is - PRODUCTS
